@@ -10,4 +10,4 @@ cmake .. -DDLIB_USE_CUDA=1 -DUSE_AVX_INSTRUCTIONS=1
 cmake --builld .
 sudo make install
 cd ..
-python3 setup.py install
+sudo python3 setup.py install
